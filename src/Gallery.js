@@ -56,7 +56,7 @@ export default class Gallery extends PureComponent {
         this.activeImageResponder = this.activeImageResponder.bind(this);
     }
 
-    componentWillMount () {
+    onMount () {
         let onResponderReleaseOrTerminate = (evt, gestureState) => {
             if (this.activeResponder) {
                 if (this.activeResponder === this.viewPagerResponder &&
@@ -148,6 +148,7 @@ export default class Gallery extends PureComponent {
     }
 
     componentDidMount () {
+        this.onMount();
         this._isMounted = true;
     }
 

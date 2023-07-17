@@ -20,6 +20,7 @@
     "prop-types": "^15.6.0",
     "react-mixin": "^3.0.5",
     "react-timer-mixin": "^0.13.3"
+    "deprecated-react-native-prop-types": "^4.1.0",
   },
   "peerDependencies": {
     "react": "*",

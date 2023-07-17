@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import {
     View,
     FlatList,
-    ViewPropTypes,
     InteractionManager,
     Dimensions
 } from 'react-native';
